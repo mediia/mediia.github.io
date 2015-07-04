@@ -489,22 +489,18 @@ header h2 {
 }
 
 #main-content {
-  float: left;
-  width: 690px;
 }
 
 #main-content img {
   max-width: 100%;
 }
 
-aside#sidebar {
-  float: right;
-  width: 200px;
-  min-height: 504px;
-  padding-left: 20px;
+aside#sidebar {  
+  text-align: center;
+  border-top: 1px solid #9ddcff;
+  padding-top: 36px;
   font-size: 12px;
   line-height: 1.3;
-  background: transparent url(../images/sidebar-bg.jpg) 0 0 no-repeat;
 }
 
 aside#sidebar p.repo-owner,
